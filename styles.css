@@ -1,0 +1,81 @@
+/*CITIES*/
+
+.box img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.city-feature{
+	margin-bottom: 5px;
+}
+.icon-small{
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	color: #E67E22;
+	font-size: 120%;
+	margin-right: 10px;
+
+	/* SECRET TO ALIGN TEXT AND ICONS */
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+a:link,
+a:active{
+	color: #E67E22;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #E67E22;
+	transition: 0.2s;
+}
+
+a:hover,
+a:active{
+	color: #555;
+	border-bottom: 1px solid transparent;
+}
+/*TESTIMONIALS*/
+.section-testimonials{
+	background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ), url(img/back-customers.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFF;
+}
+blockquote{
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 40px;
+}
+
+blockquote{
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 40px;
+}
+
+blockquote::before{
+	content: "\201C";
+	font-size: 500%;
+	font-style: italic;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}
+cite{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+}
+cite img{
+	height: 45px;
+	width: auto;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
